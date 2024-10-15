@@ -5,3 +5,6 @@ Sample Input:
 Sample Output:
 3
 """
+input_elements = input("Enter tuple elements separated by spaces:\n")
+elements_tuple = tuple(input_elements.split())
+print(len(elements_tuple))
